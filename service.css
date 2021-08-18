@@ -1,0 +1,241 @@
+/* --- 1. Typography --- */
+body {
+	line-height: 35px;
+	font-family: sans-serif;
+	font-size: 35px;
+	font-weight: 500px;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+
+/* --- 2. navigation --- */
+ header {
+ 	width: auto;
+ 	height: 50px;
+ 	padding: 15px;
+ 	word-wrap: wrap;
+	background-color: hsl(195, 75%, 15%);
+ }
+ 
+header a {
+ 	display: inline-block;
+ 	font-size: 24px;
+ 	text-decoration: none;
+ 	color: hsl(35, 85%, 45%);
+}
+
+.homeLink {
+	font-weight: 1200px;
+	display: inline-block;
+	float: left;
+	clear: both;
+	letter-spacing: 0.125px;
+	font-size: 44px;
+	color: hsl(35, 85%, 45%); 
+}
+
+.nav_bar {
+	float: right;
+	padding-left: 300px;
+ 	box-sizing: border-box;
+ 	position: relative;
+ 	top: -40px;
+}
+
+.nav_bar ul li {
+	float: left;
+ 	width: 200px;
+ 	height: 100%;
+ 	margin: 0 auto;
+ 	list-style: none;
+ 	font-weight: bold;
+ 	letter-spacing: 2px;
+ 	position: relative;
+ }
+
+.nav_bar ul li a{
+ 	width: 300;
+ 	float: left;
+ 	text-align: center;
+ 	padding: 15px 0;
+ 	margin-right: 10px;
+ 	cursor: pointer;
+ 	/*transition: all 0.4s ease;*/
+}
+
+.nav_bar ul li a:hover {
+   color: hsl(15, 85%, 35%);
+}
+
+/* --- 3. Layout --- */
+#serviceOffered {
+	display: inline-flex;
+	flex: 3 0 150px;
+	font-size: 24px;
+	background: hsl(0, 0%, 90%);
+	color: hsl(0, 0%, 55%);
+	text-align: justify;
+}
+ 
+ #serviceOffered h1{
+ 	text-align: center;
+ 	color: hsl(35, 85%, 45%);
+ }
+
+ #serviceOffered div {
+ 	padding: 25px;
+ 	width: 100%;
+ }
+
+ #serviceOffered div li {
+ 	list-style: square;
+ 	text-justify: tibetan;
+ }
+
+ #testimonials {
+ 	width: 100%;
+ 	height: 100%;
+ 	/* content slider */
+ 	overflow: hidden;
+ 	visibility: visible;
+
+ 	/* content slider */
+ 	margin-top: 30px;
+ 	background-color: hsl(0, 0%, 90%); 	
+ }
+
+ #testimonials .testimonial {
+	height: 360px;
+	/* content slider */
+	position: relative;
+	width: 500%;
+	margin: 20px 0;
+	left: 0;
+	animation: 25s ease-out slideIn infinite;
+	/* content slider */
+ 	color: hsl(195, 75%, 15%);
+ 	font-size: 36px;
+ 	font-weight: bolder;
+ 	background-color: hsl(35, 85%, 45%);
+ 	padding: 0;
+}
+
+#testimonials .outer > div {
+	/* content slider */
+	width: 20%;
+	float: left;
+	padding: 35px;
+ 	/* content slider */
+}
+
+.outer > div + p {
+	/* content slider */
+	width: 100%;
+	float: left;
+	text-align: justify;
+	/* content slider */
+}
+
+@keyframes slideIn {
+	0%{
+		left: 0%;
+	}
+
+	10%{
+		left: 0%;
+	}
+
+	12%{
+		left: -100%;
+	}
+
+	22%{
+		left: -100%;
+	}
+
+	24%{
+		left: -200%;
+	}
+
+	34%{
+		left: -200%;
+	}
+
+	36%{
+		left: -300%;
+	}
+
+	46%{
+		left: -300%;
+	}
+
+	48%{
+		left: -400%;
+	}
+
+	58%{
+		left: -400%
+	}
+
+	60%{
+		left: -300%;
+	}
+
+	70%{
+		left: -300%;
+	}
+
+	72%{
+		left: 200%;
+	}
+
+	82%{
+		left: 200%;
+	}
+
+	84%{
+		left: -100%;
+	}
+
+	94%{
+		left: -100%;
+	}
+
+	96%{
+		left: 0%;
+	}
+}
+
+
+#bottomLayer {
+ 	margin-top: 50px;
+ 	background: hsl(195, 75%, 15%);
+ 	width: 100%;
+ 	padding-bottom: 15px;
+ 	padding-top: 15px;
+ 	color: hsl(0, 0%, 90%);
+ }
+
+ #bottomLayer ul li{
+ 	line-height: 42px;
+ 	list-style: none;
+ 	text-decoration: none;
+ }
+
+ #bottomLayer ul li:hover {
+ 	color: hsl(15, 85%, 35%);
+ }
+
+ #bottomLayer {
+ 	display: inline-flex;
+ 	flex: 2 0 650px;
+ }
+
+ #bottomLeft {
+ 		float: left;
+ }
+
+ #bottomRight {
+ 		float: right;
+ }

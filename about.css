@@ -1,0 +1,110 @@
+/* --- 1. Typography --- */
+body {
+	line-height: 35px;
+	font-family: sans-serif;
+	font-size: 35px;
+	font-weight: 500px;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+
+/* --- 2. navigation --- */
+ header {
+ 	width: auto;
+ 	height: 50px;
+ 	padding: 15px;
+ 	word-wrap: wrap;
+	background-color: hsl(195, 75%, 15%);
+ }
+ 
+header a {
+ 	display: inline-block;
+ 	font-size: 24px;
+ 	text-decoration: none;
+ 	color: hsl(35, 85%, 45%);
+}
+
+.homeLink {
+	font-weight: 1200px;
+	display: inline-block;
+	float: left;
+	clear: both;
+	letter-spacing: 0.125px;
+	font-size: 44px;
+	color: hsl(35, 85%, 45%);
+}
+
+.nav_bar {
+	float: right;
+	padding-left: 300px;
+ 	box-sizing: border-box;
+ 	position: relative;
+ 	top: -40px;
+}
+
+.nav_bar ul li {
+	float: left;
+ 	width: 200px;
+ 	height: 100%;
+ 	margin: 0 auto;
+ 	list-style: none;
+ 	font-weight: bold;
+ 	letter-spacing: 2px;
+ 	position: relative;
+ }
+
+.nav_bar ul li a{
+ 	width: 300;
+ 	float: left;
+ 	text-align: center;
+ 	padding: 15px 0;
+ 	margin-right: 10px;
+ 	cursor: pointer;
+ 	/*transition: all 0.4s ease;*/
+}
+
+.nav_bar ul li a:hover {
+   color: hsl(15, 85%, 35%);
+}
+
+/* --- 3. Layout ---*/
+
+#mid {
+	background: url(edit.jpg);
+	background-repeat: round;
+	height: 660px;
+	padding: 15px;
+}
+
+#bottomLayer {
+ 	margin-top: 50px;
+ 	background: hsl(195, 75%, 15%);
+ 	width: 100%;
+ 	padding-bottom: 15px;
+ 	padding-top: 15px;
+ 	color: hsl(0, 0%, 90%);
+ }
+
+ #bottomLayer ul li{
+ 	line-height: 42px;
+ 	list-style: none;
+ 	text-decoration: none;
+ }
+
+ #bottomLayer ul li:hover {
+ 	color: hsl(15, 85%, 35%);
+ }
+
+ #bottomLayer {
+ 	display: inline-flex;
+ 	flex: 2 0 650px;
+ }
+
+ #bottomLeft {
+ 		float: left;
+ }
+
+ #bottomRight {
+ 		float: right;
+ }
